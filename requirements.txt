@@ -1,0 +1,32 @@
+# Etsy AI Agent Dependencies
+# Core AI
+anthropic>=0.39.0
+openai>=1.0.0
+
+# Web scraping and HTTP
+httpx>=0.25.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+fake-useragent>=1.4.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# CLI interface
+rich>=13.0.0
+typer>=0.9.0
+questionary>=2.0.0
+
+# Configuration
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Storage
+aiofiles>=23.0.0
+json5>=0.9.0
+
+# Utilities
+tenacity>=8.2.0
+asyncio-throttle>=1.0.0
